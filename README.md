@@ -6,7 +6,5 @@ It based on [Kodi Nightly Builds](https://launchpad.net/~team-xbmc/+archive/ubun
 ### Usage
 - ` su `
 - `apt-get update`
-- `dpkg -i kodi_21.0+git20231119.0411-651ae62aa6-0~lunar_all.deb kodi-bin_21.0+git20231119.0411-651ae62aa6-0~lunar_amd64.deb `
+- `dpkg -i kodi_21.0+git20231119.0411-651ae62aa6-0~lunar_all.deb kodi-bin_21.0+git20231119.0411-651ae62aa6-0~lunar_amd64.deb kodi-inputstream-adaptive_21.4.1-1~lunar_amd64.deb kodi-inputstream-ffmpegdirect_21.2.0-1~lunar_amd64.deb kodi-inputstream-rtmp_21.1.0-1~lunar_amd64.deb kodi-peripheral-joystick_21.1.8-1~lunar_amd64.deb kodi-pvr-iptvsimple_21.6.0-1~lunar_amd64.deb `
 - `apt-get install -f `
-
-Install InputStream Adaptive, InputStream RTMP and optionally other add-ons directly in KODI from zip files.
